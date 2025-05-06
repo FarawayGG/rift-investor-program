@@ -4,10 +4,25 @@ pub mod instructions;
 pub mod state;
 
 use anchor_lang::prelude::*;
+use solana_security_txt::security_txt;
 
 pub use constants::*;
 pub use instructions::*;
 pub use state::*;
+
+#[cfg(not(feature = "no-entrypoint"))]
+security_txt! {
+    // Required fields
+    name: "Faraway Rift Investor Program",
+    project_url: "https://github.com/FarawayGG/rift-investor-program",
+    contacts: "email:support@faraway.gg,github:https://github.com/FarawayGG/rift-investor-program/security",
+    policy: "https://github.com/FarawayGG/rift-investor-program/blob/main/SECURITY.md",
+
+    // Optional fields
+    preferred_languages: "en",
+    source_code: "https://github.com/FarawayGG/rift-investor-program",
+    acknowledgements: "The Faraway team would like to thank all security researchers who responsibly disclose vulnerabilities."
+}
 
 declare_id!("93KzY6AXgrgxL5T1MwLJWa7YbJgFKbZhWHDP62URuY9c");
 
