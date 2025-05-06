@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-The Faraway team takes the security of our software seriously. If you believe you have found a security vulnerability in the Rift Investor Program, please report it to us as described below.
+The Faraway team takes the security of our software seriously. If you believe you have found a security vulnerability in the Internet Capital Module, please report it to us as described below.
 
 **Please do not report security vulnerabilities through public GitHub issues.**
 

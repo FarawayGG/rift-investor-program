@@ -1,1 +1,1 @@
-# Rift Investor Program
+# Internet Capital Module Solana Program

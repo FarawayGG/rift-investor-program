@@ -13,7 +13,7 @@ pub use state::*;
 #[cfg(not(feature = "no-entrypoint"))]
 security_txt! {
     // Required fields
-    name: "Faraway Rift Investor Program",
+    name: "Internet Capital Module",
     project_url: "https://github.com/FarawayGG/rift-investor-program",
     contacts: "email:support@faraway.gg,github:https://github.com/FarawayGG/rift-investor-program/security",
     policy: "https://github.com/FarawayGG/rift-investor-program/blob/main/SECURITY.md",
